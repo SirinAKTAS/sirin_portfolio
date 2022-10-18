@@ -8,7 +8,7 @@ const Portfolio = () => {
   return (
     <div
       name="Portfolio"
-      className="h-full w-full bg-gradient-to-b from-black via-black to-gray-800 py-12"
+      className="h-full w-full bg-gradient-to-b from-black via-black to-gray-800 pt-6 md:pt-28 lg:pt-0"
     >
       <div className="text-white max-w-screen-lg mx-auto flex flex-col gap-12 pt-28 pb-16 px-8">
         <h2 className="font-bold text-4xl sm:text-6xl border-solid border-gray-500 border-b-4 w-40 pb-2 sm:w-64">
@@ -24,7 +24,7 @@ const Portfolio = () => {
               />
             </div>
 
-            <div className="flex flex-row justify-center items-center py-4 gap-32 text-2xl bg-gray-700 rounded-b-xl">
+            <div className="flex flex-row justify-center items-center py-4 gap-20 lg:gap-32 text-2xl bg-gray-700 rounded-b-xl">
               <a
                 href="https://sirinaktas.github.io/OhMyFood/"
                 target="_blank"
@@ -55,7 +55,7 @@ const Portfolio = () => {
               />
             </div>
 
-            <div className="flex flex-row justify-center items-center py-4 gap-32 text-2xl bg-gray-700 rounded-b-xl">
+            <div className="flex flex-row justify-center items-center py-4 text-2xl bg-gray-700 rounded-b-xl">
               <a
                 href="https://github.com/SirinAKTAS/p7_groupomania"
                 target="_blank"
@@ -77,7 +77,7 @@ const Portfolio = () => {
               />
             </div>
 
-            <div className="flex flex-row justify-center items-center py-4 gap-32 text-2xl bg-gray-700 rounded-b-xl">
+            <div className="flex flex-row justify-center items-center py-4 gap-20 lg:gap-32 text-2xl bg-gray-700 rounded-b-xl">
               <a
                 href="https://sirinaktas.github.io/todo_list/"
                 target="_blank"
@@ -108,7 +108,7 @@ const Portfolio = () => {
               />
             </div>
 
-            <div className="flex flex-row justify-center items-center py-4 gap-32 text-2xl bg-gray-700 rounded-b-xl">
+            <div className="flex flex-row justify-center items-center py-4 text-2xl bg-gray-700 rounded-b-xl">
               <a
                 href="https://github.com/SirinAKTAS/p5_kanap"
                 target="_blank"

@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="A propos"
-      className="h-screen w-full bg-gradient-to-b from-gray-800 via-gray-800 to-black py-8"
+      className="h-screen w-full bg-gradient-to-b from-gray-800 via-gray-800 to-black pt-40 md:pt-0"
     >
       <div className="text-white max-w-screen-lg mx-auto gap-24 flex flex-col justify-center h-full px-6">
         <h2 className="font-bold text-4xl sm:text-6xl border-solid border-gray-500 border-b-4 w-40 pb-2 sm:w-64">
@@ -20,7 +20,6 @@ const About = () => {
           dès maintenant pour des échanges par message, en appel ou en visio par
           le biais d’un entretien pour un emploi ou un stage en Ile-de-France.
         </p>
-        <p>Merci de m'avoir lus et je vous dis peut-être à bientôt !</p>
       </div>
     </div>
   );
