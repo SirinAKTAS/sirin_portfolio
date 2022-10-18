@@ -1,13 +1,13 @@
 import React from "react";
 import OhMyFood from "../assets/portfolio/ohmyfood.png";
-import Groupomania from "../assets/portfolio/groupomania.png"
-import TodoList from "../assets/portfolio/todolist.webp"
-import Kanap from "../assets/portfolio/kanap.png"
+import Groupomania from "../assets/portfolio/groupomania.png";
+import TodoList from "../assets/portfolio/todolist.webp";
+import Kanap from "../assets/portfolio/kanap.png";
 
 const Portfolio = () => {
   return (
     <div
-      name="portfolio"
+      name="Portfolio"
       className="h-full w-full bg-gradient-to-b from-black via-black to-gray-800 py-12"
     >
       <div className="text-white max-w-screen-lg mx-auto flex flex-col gap-12 pt-28 pb-16 px-8">
@@ -78,7 +78,7 @@ const Portfolio = () => {
             </div>
 
             <div className="flex flex-row justify-center items-center py-4 gap-32 text-2xl bg-gray-700 rounded-b-xl">
-            <a
+              <a
                 href="https://sirinaktas.github.io/todo_list/"
                 target="_blank"
                 rel="noreferrer"
