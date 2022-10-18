@@ -1,6 +1,7 @@
 import React from "react";
 import SirinImg from "../assets/SirinImg.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { Link } from "react-scroll";
 
 const Home = () => {
 
@@ -15,18 +16,18 @@ const Home = () => {
             Je suis Développeur Front-end
           </h2>
           <p className="text-gray-600 py-4 text-xl max-w-lg">
-            Diplomé d'un titre RNCP de niveau 5 (back +2), je suis à la
+            Diplomé d'un titre RNCP de niveau 5 (bac +2), je suis à la
             recherche d'une première expérience pro, CDI CDD STAGE. Hâte de
             faire équipe avec vous !
           </p>
 
           <div>
-            <button className="group text-white flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-blue-500 px-4 py-2 w-fit rounded-2xl">
+            <Link to="Portfolio" smooth duration={500} className="group text-white flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-blue-500 px-4 py-2 w-fit rounded-2xl hover:cursor-pointer">
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={25} />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
         <div>

@@ -15,7 +15,7 @@ const Portfolio = () => {
           Portfolio
         </h2>
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
-          <div className="border-4 border-cyan-500 border-b-blue-500 rounded-2xl">
+          <div className="shadow-lg shadow-gray-500 rounded-2xl">
             <div>
               <img
                 className="rounded-t-xl h-40 w-full object-cover"
@@ -46,7 +46,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="border-4 border-cyan-500 border-b-blue-500 rounded-2xl">
+          <div className="shadow-lg shadow-gray-500 rounded-2xl">
             <div>
               <img
                 className="rounded-t-xl h-40 w-full"
@@ -68,7 +68,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="border-4 border-cyan-500 border-b-blue-500 rounded-2xl">
+          <div className="shadow-lg shadow-gray-500 rounded-2xl">
             <div>
               <img
                 className="rounded-t-xl h-40 w-full object-cover"
@@ -99,7 +99,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="border-4 border-cyan-500 border-b-blue-500 rounded-2xl">
+          <div className="shadow-lg shadow-gray-500 rounded-2xl">
             <div>
               <img
                 className="rounded-t-xl h-40 w-full object-cover"
