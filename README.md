@@ -1,1 +1,1 @@
-# sirin_portfolio https://sirin-portfolio.netlify.app/
+# https://sirin-portfolio.netlify.app/
