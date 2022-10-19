@@ -2,6 +2,7 @@ import React from "react";
 import SirinImg from "../assets/SirinImg.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
+import { Typewriter } from 'react-simple-typewriter'
 
 const Home = () => {
 
@@ -12,9 +13,21 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center gap-6 h-full px-6 md:flex-row">
         <div className="flex flex-col justify-center h-full px-4">
-          <h2 className="text-4xl sm:text-7xl text-white font-bold pt-8">
-            Je suis Développeur Front-end
+          <h2 className="text-4xl sm:text-6xl text-white font-bold pt-8">
+            Je suis Développeur,
+            
           </h2>
+          <span className="text-red-500 font-bold text-4xl md:text-5xl">
+              <Typewriter
+                words={['JavaScript', 'React', 'Tailwind']}
+                loop
+                cursor
+                cursorStyle="_"
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+              />
+            </span>
           <p className="text-gray-400 py-4 text-xl max-w-lg">
             Diplomé d'un titre RNCP de niveau 5 (bac +2), je suis à la
             recherche d'une première expérience pro, CDI CDD STAGE. Hâte de
