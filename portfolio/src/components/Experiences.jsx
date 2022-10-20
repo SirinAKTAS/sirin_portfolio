@@ -73,7 +73,7 @@ const Experiences = () => {
           {Exp.map(({ id, src, name, style }) => (
             <div
               key={id}
-              className={`shadow-md rounded-lg flex flex-col gap-4 pt-2 items-center cursor-pointer hover:scale-105 duration-300 ${style}`}
+              className={`shadow-md rounded-lg flex flex-col gap-4 pt-2 items-center hover:scale-105 duration-300 ${style}`}
             >
               <div>
                 <img src={src} alt="html-logo" className="h-24" />

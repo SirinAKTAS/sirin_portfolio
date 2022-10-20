@@ -24,7 +24,7 @@ const Portfolio = () => {
               />
             </div>
 
-            <div className="flex flex-row justify-center items-center py-4 gap-20 lg:gap-32 text-2xl bg-gray-700 rounded-b-xl">
+            <div className="flex flex-row justify-center items-center py-2 gap-20 lg:gap-32 text-2xl bg-gray-700 rounded-b-xl">
               <a
                 href="https://sirinaktas.github.io/OhMyFood/"
                 target="_blank"
@@ -45,6 +45,10 @@ const Portfolio = () => {
               </a>
             </div>
           </div>
+          <p className="flex flex-col justify-center items-center pb-4 rounded-b-lg">
+            Transformation d'une maquette en HTML/CSS avec Sass pour le
+            restaurant ohMyFood.
+          </p>
 
           <div className="shadow-lg shadow-gray-500 rounded-2xl">
             <div>
@@ -55,7 +59,7 @@ const Portfolio = () => {
               />
             </div>
 
-            <div className="flex flex-row justify-center items-center py-4 text-2xl bg-gray-700 rounded-b-xl">
+            <div className="flex flex-row justify-center items-center py-2 text-2xl bg-gray-700 rounded-b-xl">
               <a
                 href="https://github.com/SirinAKTAS/p7_groupomania"
                 target="_blank"
@@ -67,6 +71,15 @@ const Portfolio = () => {
               </a>
             </div>
           </div>
+          <p className="flex flex-col justify-center items-center rounded-b-lg px-2">
+            Réseau social from scratch avec du front (React, Tailwind) et du
+            back(nodeJs, express et mongodb) pour la société Groupomania. Le
+            projet consiste à construire un réseau social interne pour les
+            employés de Groupomania. Le but de cet outil est de faciliter les
+            interactions entre collègues. Sachant que c'est une version MVP on
+            peut pour le moment publier un post (texte avec ou sans images ou
+            images avec ou sans text) et liker les autres posts
+          </p>
 
           <div className="shadow-lg shadow-gray-500 rounded-2xl">
             <div>
@@ -77,7 +90,7 @@ const Portfolio = () => {
               />
             </div>
 
-            <div className="flex flex-row justify-center items-center py-4 gap-20 lg:gap-32 text-2xl bg-gray-700 rounded-b-xl">
+            <div className="flex flex-row justify-center items-center py-2 gap-20 lg:gap-32 text-2xl bg-gray-700 rounded-b-xl">
               <a
                 href="https://sirinaktas.github.io/todo_list/"
                 target="_blank"
@@ -98,6 +111,11 @@ const Portfolio = () => {
               </a>
             </div>
           </div>
+          <p className="flex flex-col justify-center items-center rounded-b-lg px-2">
+            TodoList basique avec du javascript, utilisation du localStorage
+            pour stocker les données en local. Le visuel n'a pas encore été
+            faite
+          </p>
 
           <div className="shadow-lg shadow-gray-500 rounded-2xl">
             <div>
@@ -120,6 +138,15 @@ const Portfolio = () => {
               </a>
             </div>
           </div>
+          <p className="flex flex-col justify-center items-center rounded-b-lg px-2">
+            Kanap proposent la vente de canapés. J'ai dû réalisé l'affichage
+            dynamique des produits sur les différentes pages depuis l'API. Ajout
+            des produits dans le localStorage puis on récupère les produits du
+            localStorage pour les afficher sur la page panier. Sur la page
+            panier on peut modifier la quantité ainsi que supprimer un article,
+            la quantité et le prix est calculé automatiquement grâce à des
+            fonctions en javascript.
+          </p>
         </div>
       </div>
     </div>

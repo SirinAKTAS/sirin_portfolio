@@ -29,8 +29,8 @@ const Home = () => {
               />
             </span>
           <p className="text-gray-400 py-4 text-xl max-w-lg">
-            Diplomé d'un titre RNCP de niveau 5 (bac +2), je suis à la
-            recherche d'une première expérience pro, CDI CDD STAGE. Hâte de
+            Diplômé d'un titre RNCP de niveau 5 (bac +2), je suis à la
+            recherche d'une première expérience pro. Hâte de
             faire équipe avec vous !
           </p>
 
