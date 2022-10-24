@@ -3,6 +3,7 @@ import OhMyFood from "../assets/portfolio/ohmyfood.png";
 import Groupomania from "../assets/portfolio/groupomania.png";
 import TodoList from "../assets/portfolio/todolist.webp";
 import Kanap from "../assets/portfolio/kanap.png";
+import Netflix from "../assets/portfolio/netflix.webp";
 
 const Portfolio = () => {
   return (
@@ -15,6 +16,43 @@ const Portfolio = () => {
           Portfolio
         </h2>
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
+          <div className="shadow-lg shadow-gray-500 rounded-2xl">
+            <div>
+              <img
+                className="rounded-t-xl h-40 w-full object-cover"
+                src={Netflix}
+                alt="folio-pic"
+              />
+            </div>
+
+            <div className="flex flex-row justify-center items-center py-2 gap-20 lg:gap-32 text-2xl bg-gray-700 rounded-b-xl">
+              <a
+                href="https://sirflix.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p className="cursor-pointer hover:scale-110 duration-200">
+                  Demo
+                </p>
+              </a>
+              <a
+                href="https://github.com/SirinAKTAS/netflix-clone"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p className="cursor-pointer hover:scale-110 duration-200">
+                  Code
+                </p>
+              </a>
+            </div>
+          </div>
+          <p className="flex flex-col justify-center items-center pb-4 rounded-b-lg">
+            Clone visuel de netflix en utilisant l'api -The Movie Database-,
+            utilisation de javascript et de reactJs avec du css simple.
+            J'ajouterais des fonctionnalités au fur et à mesures, comme par
+            exemple avoir la possibilité de naviguer dans les films.
+          </p>
+
           <div className="shadow-lg shadow-gray-500 rounded-2xl">
             <div>
               <img
