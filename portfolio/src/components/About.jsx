@@ -22,7 +22,7 @@ const About = () => {
           Par la suite de l’obtention de mon diplôme, je compte réaliser mon
           projet professionnel et personnel, c'est-à-dire qu'avec votre aide
           j'aimerais donner une grande satisfaction à nos clients, en leurs
-          proposants des sites web modernes et dynamique. Je suis disponible dès
+          proposants des sites web modernes et dynamiques. Je suis disponible dès
           maintenant pour des échanges par message, en appel ou en visio par le
           biais d’un entretien pour un emploi ou un stage en Ile-de-France.
         </p>

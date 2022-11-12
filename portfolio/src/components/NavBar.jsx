@@ -30,7 +30,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center bg-black text-white fixed h-20 w-full px-4">
+    <div className="flex justify-between items-center bg-black text-white fixed h-20 w-full px-4" style={{zIndex: '1'}}>
       <div>
         <Link to="Accueil" smooth duration={500}><h1 className="text-5xl font-signature mt-4 hover:cursor-pointer">Sirin</h1></Link>
       </div>
